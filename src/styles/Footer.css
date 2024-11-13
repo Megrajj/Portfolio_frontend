@@ -1,0 +1,99 @@
+.footer {
+    text-align: center;
+    color: white;
+}
+/* Ensure the footer content center and space between items */
+footer .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.fadeIn {
+    animation: fadeIn 1s ease-in-out;
+}
+
+.bounceIn {
+    animation: bounceIn 1s ease-in-out;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(10px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@keyframes bounceIn {
+    0%, 20%, 50%, 80%, 100% {
+        transform: translateY(0);
+    }
+    40% {
+        transform: translateY(-10px);
+    }
+    60% {
+        transform: translateY(-5px);
+    }
+}
+
+.container {
+    max-width: 1200px; /* Adjust maximum width as needed */
+    margin: 0 auto; /* Center the container */
+}
+
+.footer-icons a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.social-icon {
+    color: white; 
+    transition: color 0.2s; /* Smooth transition for color */
+}
+
+/* Eye-catching hover color for social icons */
+.social-icon:hover {
+    color: #ffeb3b; /* Bright yellow for hover state */
+}
+
+.bg-gradient-to-r {
+    transition: background 0.3s;
+}
+
+.bg-gradient-to-r:hover {
+    background: linear-gradient(to right, #6590ee, #7e22ce); /* You might want to keep this gradient for hover as it is visually appealing */
+}
+
+.text-blue-200 {
+    transition: color 0.2s;
+}
+
+/* Eye-catching hover color for text */
+.text-blue-200:hover {
+    color: #09090a; /* Bright pink for hover effect */
+}
+
+.text-lg {
+    font-size: 1.25rem; /* Increased base font size */
+}
+
+/* Ensure larger text in mobile */
+@media (max-width: 768px) {
+    .text-lg {
+        font-size: 1rem; /* Corrected font size for mobile view */
+    }
+    
+    .footer {
+        padding: 1.5rem 0; /* Adjust padding for smaller screens */
+    }
+
+    .social-icon {
+        margin: 0 10px; /* Provide some spacing between icons */
+    }
+}

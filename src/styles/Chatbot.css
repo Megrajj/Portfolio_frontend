@@ -1,0 +1,26 @@
+/* src/components/Chatbot.css */
+.chatbot {
+    border: 1px solid #ddd;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.messages {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.user-message {
+    align-self: flex-end;
+    background-color: #4A90E2;
+    color: white;
+    padding: 10px;
+    border-radius: 8px;
+}
+
+.bot-message {
+    align-self: flex-start;
+    background-color: #f1f1f1;
+    padding: 10px;
+    border-radius: 8px;
+}

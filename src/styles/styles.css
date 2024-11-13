@@ -1,0 +1,43 @@
+/* src/styles/styles.css */
+
+/* General Styles */
+body {
+    background-color: #f9fafb; /* Light gray background */
+    font-family: 'Arial', sans-serif;
+}
+
+/* Navbar Styles */
+nav {
+    background: #1f2937; /* Dark gray */
+}
+
+/* Hero Section Styles */
+.hero {
+    min-height: 100vh; /* Full height */
+}
+
+/* About Section Styles */
+#about {
+    background-color: #f3f4f6; /* Light gray background */
+    padding: 4rem 1rem; /* Vertical padding */
+}
+
+/* Project Card Styles */
+.project-card {
+    background: #edf2f7; /* Grayish background */
+    border-radius: .5rem; /* Rounded corners */
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s;
+}
+
+.project-card:hover {
+    transform: translateY(-5px); /* Lift effect on hover */
+}
+
+/* Footer Styles */
+footer {
+    background: #1f2937; /* Dark gray background */
+    color: white;
+    padding: 1rem; /* Vertical padding */
+    text-align: center;
+}
