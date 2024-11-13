@@ -27,7 +27,7 @@ const Home = () => {
                     <h1 className="text-4xl md:text-5xl font-extrabold text-center md:text-left">Suman Neupane</h1>
                     <p className="text-lg text-center md:text-left">Web Developer | Passionate Coder</p>
                     <a
-                        href="../Suman_BIT.pdf" //actual CV path
+                        href="/resume.pdf" //actual CV path
                         className="mt-4 px-6 py-2 bg-white text-blue-500 rounded-full shadow-lg hover:bg-gray-200 transition duration-300"
                         download
                     >
